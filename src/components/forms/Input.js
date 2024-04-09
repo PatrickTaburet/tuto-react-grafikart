@@ -14,7 +14,7 @@ function Input({placeholder, value, onChange}) {
         className="form-control"
         placeholder={placeholder}
         value= {value}
-        onChange ={(e) => onChange(e.target.value)}
+        onChange ={((e) => onChange(e.target.value))}
       />
     </div>
    
